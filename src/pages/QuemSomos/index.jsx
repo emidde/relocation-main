@@ -9,6 +9,8 @@ import ana from '../../img/ana-cerezza'
 import gethiane from '../../img/gethiane.jpeg'
 import juvilaca from '../../img/ju-vilaça.jpeg'
 import { Avatar } from '@mui/material'
+import rafael from '../../img/rafael.jpeg'
+import marizaestima from '../../img/mariza.jpeg'
 
 const QuemSomos = () => {
   return (
@@ -49,6 +51,18 @@ const QuemSomos = () => {
               </div>
             </div>
             <div className="nossos-time text-left mt-24">
+                <div className="img-team md:flex sm:block items-center gap-x-7">
+                  <Card img={marizaestima} />
+                  <p className='font-normal text-gray-500'> encomendas, compras iniciais, limpeza, recebimento 
+                     de mudança, e acompanhamento do contrato entregue 
+                     com NIF (Número de Identificação Fiscal de Portugal).</p>
+                </div>
+                <div className="img-team md:flex sm:block items-center gap-x-7">
+                  <Card img={rafael} />
+                  <p className='font-normal text-gray-500'> encomendas, compras iniciais, limpeza, recebimento 
+                     de mudança, e acompanhamento do contrato entregue 
+                     com NIF (Número de Identificação Fiscal de Portugal).</p>
+                </div>
                 <div className="img-team md:flex sm:block items-center gap-x-7">
                   <Card img={sara} />
                   <p className='font-normal text-gray-500'> encomendas, compras iniciais, limpeza, recebimento 
