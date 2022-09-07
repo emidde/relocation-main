@@ -12,6 +12,7 @@ import { Avatar } from '@mui/material'
 import rafael from '../../img/rafael.jpeg'
 import marizaestima from '../../img/mariza.jpeg'
 
+
 const QuemSomos = () => {
   return (
     <div className="quem-somos">
@@ -51,7 +52,7 @@ const QuemSomos = () => {
               </div>
             </div>
             <div className="nossos-time text-left mt-24">
-                <div className="img-team md:flex sm:block items-center mt-12 gap-x-7">
+            <div className="img-team md:flex sm:block items-center gap-x-7">
                   <Card img={marizaestima} />
                     <div className="">
                       <b className='text-purple-700'>Mariza Estima</b>
@@ -59,7 +60,8 @@ const QuemSomos = () => {
                      de mudança, e acompanhamento do contrato entregue 
                      com NIF (Número de Identificação Fiscal de Portugal).</p>
                     </div>
-                <div className="img-team md:flex sm:block items-center mt-12 gap-x-7">
+                </div>
+                <div className="img-team md:flex sm:block items-center gap-x-7">
                   <Card img={rafael} />
                     <div className="">
                       <b className='text-purple-700'>Rafael</b>
@@ -79,7 +81,7 @@ const QuemSomos = () => {
                 </div>
                 <div className="img-team md:flex sm:block items-center mt-12 gap-x-7">
                   <Card img={ana} />
-                    <div className="">
+                  <div className="">
                       <b className='text-purple-700'>Ana Cerezza</b>
                     <p className='font-normal text-gray-500'> encomendas, compras iniciais, limpeza, recebimento 
                      de mudança, e acompanhamento do contrato entregue 
@@ -88,8 +90,8 @@ const QuemSomos = () => {
                 </div>
                 <div className="img-team md:flex sm:block items-center mt-12 gap-x-7">
                   <Card img={juvilaca} />
-                    <div className="">
-                      <b className='text-purple-700'>Ju vilaça</b>
+                  <div className="">
+                      <b className='text-purple-700'>Ju Vilaça</b>
                     <p className='font-normal text-gray-500'> encomendas, compras iniciais, limpeza, recebimento 
                      de mudança, e acompanhamento do contrato entregue 
                      com NIF (Número de Identificação Fiscal de Portugal).</p>
@@ -97,7 +99,7 @@ const QuemSomos = () => {
                 </div>
                 <div className="img-team md:flex sm:block mt-12 items-center gap-x-7">
                   <Card img={carol} />
-                    <div className="">
+                  <div className="">
                       <b className='text-purple-700'>Carol</b>
                     <p className='font-normal text-gray-500'> encomendas, compras iniciais, limpeza, recebimento 
                      de mudança, e acompanhamento do contrato entregue 
@@ -106,7 +108,7 @@ const QuemSomos = () => {
                 </div>
                 <div className="img-team md:flex sm:block mt-12 items-center gap-x-7">
                   <Card img={gethiane} />
-                    <div className="">
+                  <div className="">
                       <b className='text-purple-700'>Gethiane</b>
                     <p className='font-normal text-gray-500'> encomendas, compras iniciais, limpeza, recebimento 
                      de mudança, e acompanhamento do contrato entregue 
