@@ -53,45 +53,65 @@ const QuemSomos = () => {
             <div className="nossos-time text-left mt-24">
                 <div className="img-team md:flex sm:block items-center mt-12 gap-x-7">
                   <Card img={marizaestima} />
-                  <p className='font-normal text-gray-500'> encomendas, compras iniciais, limpeza, recebimento 
+                    <div className="">
+                      <b className='text-purple-700'>Mariza Estima</b>
+                    <p className='font-normal text-gray-500'> encomendas, compras iniciais, limpeza, recebimento 
                      de mudança, e acompanhamento do contrato entregue 
                      com NIF (Número de Identificação Fiscal de Portugal).</p>
-                </div>
+                    </div>
                 <div className="img-team md:flex sm:block items-center mt-12 gap-x-7">
                   <Card img={rafael} />
-                  <p className='font-normal text-gray-500'> encomendas, compras iniciais, limpeza, recebimento 
+                    <div className="">
+                      <b className='text-purple-700'>Rafael</b>
+                    <p className='font-normal text-gray-500'> encomendas, compras iniciais, limpeza, recebimento 
                      de mudança, e acompanhamento do contrato entregue 
                      com NIF (Número de Identificação Fiscal de Portugal).</p>
+                    </div>
                 </div>
                 <div className="img-team md:flex sm:block items-center gap-x-7">
                   <Card img={sara} />
-                  <p className='font-normal text-gray-500'> encomendas, compras iniciais, limpeza, recebimento 
+                    <div className="">
+                      <b className='text-purple-700'>Sara</b>
+                    <p className='font-normal text-gray-500'> encomendas, compras iniciais, limpeza, recebimento 
                      de mudança, e acompanhamento do contrato entregue 
                      com NIF (Número de Identificação Fiscal de Portugal).</p>
+                    </div>
                 </div>
                 <div className="img-team md:flex sm:block items-center mt-12 gap-x-7">
                   <Card img={ana} />
-                  <p className='font-normal text-gray-500'> encomendas, compras iniciais, limpeza, recebimento 
+                    <div className="">
+                      <b className='text-purple-700'>Ana Cerezza</b>
+                    <p className='font-normal text-gray-500'> encomendas, compras iniciais, limpeza, recebimento 
                      de mudança, e acompanhamento do contrato entregue 
                      com NIF (Número de Identificação Fiscal de Portugal).</p>
+                    </div>
                 </div>
                 <div className="img-team md:flex sm:block items-center mt-12 gap-x-7">
                   <Card img={juvilaca} />
-                  <p className='font-normal text-gray-500'> encomendas, compras iniciais, limpeza, recebimento 
+                    <div className="">
+                      <b className='text-purple-700'>Ju vilaça</b>
+                    <p className='font-normal text-gray-500'> encomendas, compras iniciais, limpeza, recebimento 
                      de mudança, e acompanhamento do contrato entregue 
                      com NIF (Número de Identificação Fiscal de Portugal).</p>
+                    </div>
                 </div>
                 <div className="img-team md:flex sm:block mt-12 items-center gap-x-7">
                   <Card img={carol} />
-                  <p className='font-normal text-gray-500'> encomendas, compras iniciais, limpeza, recebimento 
+                    <div className="">
+                      <b className='text-purple-700'>Carol</b>
+                    <p className='font-normal text-gray-500'> encomendas, compras iniciais, limpeza, recebimento 
                      de mudança, e acompanhamento do contrato entregue 
                      com NIF (Número de Identificação Fiscal de Portugal).</p>
+                    </div>
                 </div>
                 <div className="img-team md:flex sm:block mt-12 items-center gap-x-7">
                   <Card img={gethiane} />
-                  <p className='font-normal text-gray-500'> encomendas, compras iniciais, limpeza, recebimento 
+                    <div className="">
+                      <b className='text-purple-700'>Gethiane</b>
+                    <p className='font-normal text-gray-500'> encomendas, compras iniciais, limpeza, recebimento 
                      de mudança, e acompanhamento do contrato entregue 
                      com NIF (Número de Identificação Fiscal de Portugal).</p>
+                    </div>
                 </div>
             </div>
       </div>
