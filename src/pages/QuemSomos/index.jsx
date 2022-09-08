@@ -61,7 +61,7 @@ const QuemSomos = () => {
                      com NIF (Número de Identificação Fiscal de Portugal).</p>
                     </div>
                 </div>
-                <div className="img-team md:flex sm:block items-center gap-x-7">
+                <div className="img-team md:flex sm:block mt-12 items-center gap-x-7">
                   <Card img={rafael} />
                     <div className="">
                       <b className='text-purple-700'>Rafael</b>
@@ -70,7 +70,7 @@ const QuemSomos = () => {
                      com NIF (Número de Identificação Fiscal de Portugal).</p>
                     </div>
                 </div>
-                <div className="img-team md:flex sm:block items-center gap-x-7">
+                <div className="img-team md:flex sm:block mt-12 items-center gap-x-7">
                   <Card img={sara} />
                     <div className="">
                       <b className='text-purple-700'>Sara</b>
