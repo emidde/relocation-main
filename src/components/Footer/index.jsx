@@ -39,9 +39,9 @@ const Footer = () => {
                 <div className="links-footer">
                     <div className="nav">
                         <ul className='links-home-footer sm:justify-center sm:gap-x-5 sm:mt-8 md:mt-0 sm:mb-12 md:mb-0'>
-                            <CustomLink>Blog</CustomLink>
-                            <CustomLink>Quem somos</CustomLink>
-                            <CustomLink>Parcerias</CustomLink>
+                            <CustomLink href="/posts" >Blog</CustomLink>
+                            <CustomLink href="/parceria">Parcerias</CustomLink>
+                            <CustomLink href="/quem-somos">Quem somos</CustomLink>
                         </ul>
                     </div>
                 </div>
