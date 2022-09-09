@@ -1,0 +1,96 @@
+.logotipo-footer img {
+    width: 175px;
+}
+
+@media screen and (max-width:764px) {
+
+    .links-home-footer {
+        gap: 20px;
+    }
+
+    .logotipo-footer {
+        text-align: -webkit-center;
+    }
+
+    .img-seguros {
+        text-align: -webkit-center;
+        text-align: center;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .input-email input {
+        border-radius: 10px;
+        border: none;
+        height: 3rem;
+        border-radius: 20px 0px 20px 0px;
+        padding-left: 20px;
+        font-family: 'Poppins';
+        font-weight: 500;
+        width: 100%;
+    }
+    
+    .button-email{
+        margin-top: 2rem;
+        border-radius: 10px;
+        border: none;
+        width: 70%;
+        height: 3rem;
+        color: white;
+        font-family: 'Poppins';
+        font-weight: 500;
+    }
+}
+
+.direitos-reservados {
+    font-family: 'Poppins';
+    text-align: center;
+    font-weight: 500;
+    color: rgb(119, 119, 119);
+    margin-bottom: 15px;
+}
+
+.email-content {
+background: #e5ddff;
+border-radius: 129px 20px 20px 20px;
+padding: 3rem;
+margin-top: 8rem;
+background-image: url(../../img/detail-footer.png);
+background-repeat: no-repeat;
+}
+
+.img-email h3 {
+    font-family: 'Poppins';
+    font-style: normal;
+    text-align: center;
+    color: #5E6282;
+}
+
+.input-email {
+    text-align: center;
+    margin-top: 2rem;
+}
+
+@media screen and (min-width:765px) {
+    .input-email input {
+        border-radius: 10px;
+        border: none;
+        height: 3rem;
+        border-radius: 20px 0px 20px 0px;
+        padding-left: 20px;
+        font-family: 'Poppins';
+        font-weight: 500;
+        width: 50%;
+    }
+
+    .button-email{
+        margin-top: 2rem;
+        border-radius: 10px;
+        border: none;
+        width: 20%;
+        height: 3rem;
+        color: white;
+        font-family: 'Poppins';
+        font-weight: 500;
+    }
+}
