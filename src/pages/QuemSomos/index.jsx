@@ -56,63 +56,77 @@ const QuemSomos = () => {
                   <Card img={marizaestima} />
                     <div className="">
                       <b className='text-purple-700'>Mariza Estima</b>
-                    <p className='font-normal text-gray-500'> encomendas, compras iniciais, limpeza, recebimento 
-                     de mudança, e acompanhamento do contrato entregue 
-                     com NIF (Número de Identificação Fiscal de Portugal).</p>
+                    <p className='font-normal text-gray-500'> 
+                      Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed mollis, ex at fringilla auctor, 
+                        mi enim mollis turpis, eget imperdiet velit elit vel metus. Praesent id urna eget metus suscipit pharetra.
+                        Aenean a imperdiet tortor. Quisque purus ante, consequat quis odio a, semper hendrerit ipsum. Nulla et orci a sem. 
+                      </p>
                     </div>
                 </div>
                 <div className="img-team md:flex sm:block mt-12 items-center gap-x-7">
                   <Card img={rafael} />
                     <div className="">
                       <b className='text-purple-700'>Rafael</b>
-                    <p className='font-normal text-gray-500'> encomendas, compras iniciais, limpeza, recebimento 
-                     de mudança, e acompanhamento do contrato entregue 
-                     com NIF (Número de Identificação Fiscal de Portugal).</p>
+                    <p className='font-normal text-gray-500'> 
+                      Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed mollis, ex at fringilla auctor, 
+                        mi enim mollis turpis, eget imperdiet velit elit vel metus. Praesent id urna eget metus suscipit pharetra.
+                        Aenean a imperdiet tortor. Quisque purus ante, consequat quis odio a, semper hendrerit ipsum. Nulla et orci a sem. 
+                      </p>
                     </div>
                 </div>
                 <div className="img-team md:flex sm:block mt-12 items-center gap-x-7">
                   <Card img={sara} />
                     <div className="">
                       <b className='text-purple-700'>Sara</b>
-                    <p className='font-normal text-gray-500'> encomendas, compras iniciais, limpeza, recebimento 
-                     de mudança, e acompanhamento do contrato entregue 
-                     com NIF (Número de Identificação Fiscal de Portugal).</p>
+                    <p className='font-normal text-gray-500'> 
+                      Sara Neves é estudante de Mestrado em Comunicação em Lisboa e estrategista de Marca.
+                      Vive em Portugal desde 2021 e integra o time da Facility para apoiar a vinda de estrangeiros que 
+                      busquem se estabelecer em Portugal.
+                      </p>
                     </div>
                 </div>
                 <div className="img-team md:flex sm:block items-center mt-12 gap-x-7">
                   <Card img={ana} />
                   <div className="">
                       <b className='text-purple-700'>Ana Cerezza</b>
-                    <p className='font-normal text-gray-500'> encomendas, compras iniciais, limpeza, recebimento 
-                     de mudança, e acompanhamento do contrato entregue 
-                     com NIF (Número de Identificação Fiscal de Portugal).</p>
+                    <p className='font-normal text-gray-500'> 
+                      Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed mollis, ex at fringilla auctor, 
+                        mi enim mollis turpis, eget imperdiet velit elit vel metus. Praesent id urna eget metus suscipit pharetra.
+                        Aenean a imperdiet tortor. Quisque purus ante, consequat quis odio a, semper hendrerit ipsum. Nulla et orci a sem. 
+                      </p>
                     </div>
                 </div>
                 <div className="img-team md:flex sm:block items-center mt-12 gap-x-7">
                   <Card img={juvilaca} />
                   <div className="">
                       <b className='text-purple-700'>Ju Vilaça</b>
-                    <p className='font-normal text-gray-500'> encomendas, compras iniciais, limpeza, recebimento 
-                     de mudança, e acompanhamento do contrato entregue 
-                     com NIF (Número de Identificação Fiscal de Portugal).</p>
+                    <p className='font-normal text-gray-500'> 
+                      Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed mollis, ex at fringilla auctor, 
+                        mi enim mollis turpis, eget imperdiet velit elit vel metus. Praesent id urna eget metus suscipit pharetra.
+                        Aenean a imperdiet tortor. Quisque purus ante, consequat quis odio a, semper hendrerit ipsum. Nulla et orci a sem. 
+                      </p>
                     </div>
                 </div>
                 <div className="img-team md:flex sm:block mt-12 items-center gap-x-7">
                   <Card img={carol} />
                   <div className="">
                       <b className='text-purple-700'>Carol</b>
-                    <p className='font-normal text-gray-500'> encomendas, compras iniciais, limpeza, recebimento 
-                     de mudança, e acompanhamento do contrato entregue 
-                     com NIF (Número de Identificação Fiscal de Portugal).</p>
+                    <p className='font-normal text-gray-500'> 
+                      Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed mollis, ex at fringilla auctor, 
+                        mi enim mollis turpis, eget imperdiet velit elit vel metus. Praesent id urna eget metus suscipit pharetra.
+                        Aenean a imperdiet tortor. Quisque purus ante, consequat quis odio a, semper hendrerit ipsum. Nulla et orci a sem. 
+                      </p>
                     </div>
                 </div>
                 <div className="img-team md:flex sm:block mt-12 items-center gap-x-7">
                   <Card img={gethiane} />
                   <div className="">
                       <b className='text-purple-700'>Gethiane</b>
-                    <p className='font-normal text-gray-500'> encomendas, compras iniciais, limpeza, recebimento 
-                     de mudança, e acompanhamento do contrato entregue 
-                     com NIF (Número de Identificação Fiscal de Portugal).</p>
+                    <p className='font-normal text-gray-500'> 
+                      Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed mollis, ex at fringilla auctor, 
+                        mi enim mollis turpis, eget imperdiet velit elit vel metus. Praesent id urna eget metus suscipit pharetra.
+                        Aenean a imperdiet tortor. Quisque purus ante, consequat quis odio a, semper hendrerit ipsum. Nulla et orci a sem. 
+                      </p>
                     </div>
                 </div>
             </div>
