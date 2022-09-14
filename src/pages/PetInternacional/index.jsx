@@ -6,40 +6,43 @@ const PetInternacioanal = () => {
 
     const planejamento = [
         {
-            passo: 'Três meses antes da viagem, começar a verificar preparar a documentação necessária para a partida. Um mês antes da viagem, confirmar com o "AVI Coordinator" se a documentação que esta a ser tratada esta OK.'
+            passo: 'Quatro ou cinco meses antes da viagem, começar a verificar preparar a documentação necessária para a partida. De acordo com cada região ver com que antecedência a Vigiagro local está agendando para a retirada do CZI.'
         },
         {
-            passo: 'Três semanas antes da viagem, colocar o seu amigo dentro da caixa de transporte para que possa ir acostumando.'
+            passo: 'Quanto antes possível da viagem, colocar o seu amigo dentro da caixa de transporte para que possa ir acostumando.'
         },
         {
-            passo: 'Duas semanas antes da viagem, verificar com o "AVI Coordinator" a documentação e fazer reservar a viagem. Uma semana antes da viagem, ir diminuindo a quantidade de alimentos e verificar com o seu veterinário que o animal está em condições de saúde para viajar.'
+            passo: 'Uma semana antes da viagem, ir diminuindo a quantidade de alimentos e verificar com o seu veterinário que o animal está em condições de saúde para viajar e ficar atentos com o peso do animal juntamente com a caixa.'
         },
         {
-            passo: 'Um dia antes da viagem, recomendamos que o deixe com uma peça de roupa velha com odor do dono, ou um cobertor ao qual esteja acostumado, para que se sinta mais confortável'
+            passo: 'Verificar antes com a companhia aérea se podemos deixar uma peça de roupa velha, de preferência com odor do dono, ou um cobertor ao qual esteja acostumado, para que se sinta mais confortável'
         },
         {
-            passo: '6 Horas antes da viagem, dar-lhe uma comida ligeira e administrar água suficiente. Retirar qualquer tipo de coleira, correias ou roupa para evitar incidentes. Levá-lo a caminhar antes de ir para o aeroporto e antes de fazer o check-in.'
+            passo: 'Horas antes da viagem, dar-lhe uma comida ligeira e administrar água. Retirar qualquer tipo de coleira, correias ou roupa para evitar incidentes. Levá-lo a caminhar antes de ir para o aeroporto e antes de fazer o check-in.'
         },
     ]
 
     const docs = [
         {
-            passo:'Microchip'
+            passo:'seu animal precisa ter um microchip – padrão ISO 11784 e ISO 11785'
         },
         {
-            passo:'Vacinas'
+            passo:'Aplicar a vacina contra a raiva. Mas atenção: a vacina deve ser aplicada após a implantação do chip mesmo que neste último ano ele já tenha tomado a vacina! vacina depois do chip! '
         },
         {
-            passo:'Desparasitação interna e externa.'
+            passo:'Fazer a Sorologia Antirrábica. O sangue só deve ser colhido 30 dias após aplicação da vacina antirrábica; O exame deve ser feito e enviado a um laboratório credenciado para realização desse exame pela União Europeia (consulte o site do Ministério da Agricultura para saber hoje quais são!). Começa então a quarentena de 90 dias! o tempo mínimo para trazer um pet do brasil para Portugal são 4 meses (um mês do intervalo da vacina até a sorologia e os três meses de quarentena.) não adianta querer viajar em 15 dias que o seu pet não vai!'
         },
         {
-            passo:'Exames de sangue específicos realizados por um laboratório acreditado (RNATT)'
+            passo:'ter a passagem comprada! Quando comprar a sua passagem você deve comprar a do pet e associar à sua! essa etapa é essencial para a próxima'
         },
         {
-            passo:'Registos médicos'
+            passo:'Com o exame de sorologia e a passagem em mãos, é necessário agendar a Vigiagro para que seja emitido o CZI (Certificado Zoos sanitário Internacional). atenção: Algumas unidades da Vigiagro têm pedido para entrar em contato com 60 dias antes da viagem. Planeje! Se informe! esse documento é essencial para o trânsito do animal entre países! sem ele, não embarca.'
         },
         {
-            passo:'Autorização de Exportação e Importação, que geralmente têm um prazo de validade'
+            passo:'Obtenha um Certificado de saúde com o veterinário responsável pelo seu pet. Esse certificado precisa ser o modelo exigido pelo Vigilância e precisa ser emitido perto da viagem'
+        },
+        {
+            passo:'Envio de documentos e a Retirada do CZI e comunicação via e-mail para o aeroporto de Lisboa ou Porto avisando a chegada do seu animalzinho, número do voo juntamente com os documentos necessários dele; Separe pelo menos € 50,00 (cinquenta euros) para a taxa de entrada do animal no país; uma dica da Mariza é a caixa de transporte!  As companhias aéreas pedem para que sigam o padrão IATA . então antes de gastar dinheiro, se tiver alguma dúvida, ligue para a companhia e se informe! Para mais informação referente a documentação necessária, recomendamos contactar o seu coordenador na Global Pets ou a Direção Geral Veterinária (DGAV).'
         },
     ]
 
@@ -147,7 +150,7 @@ const PetInternacioanal = () => {
                 <span className='flex gap-x-4 items-center sm:text-2xl md:text-4xl pt-8'><FaPaw color='#6F2185' /><b className='text-violet-800'>Planejar</b></span>
             </h3>
             <p className='font-normal pt-4 text-justify text-base pb-4 text-gray-900'>
-            Idealmente o seu animal de estimação deve ser transportado no mesmo avião em que viaja. Se nos consultar com antecedência é viável conseguirmos as autorizações, documentação e reservas para que possam viajar juntos. Como cada companhia de aviação tem regras próprias, deve iniciar o processo idealmente 3 meses antes e, no mínimo, com 2 semanas de antecedência.
+            Idealmente o seu animal de estimação deve ser transportado no mesmo avião em que viaja. Se nos consultar com antecedência é possível tirar as suas dúvidas quanto as documentações e processos. Como cada companhia de aviação tem regras próprias, deve iniciar o processo idealmente 4 a 5 meses antes.
             </p>
             <div>
                 <ol type='I'>
@@ -158,7 +161,7 @@ const PetInternacioanal = () => {
                     ))}
                 </ol>
                 <p className='font-normal pt-4 text-justify text-base pb-4 text-gray-900'>
-                É importante ter em consideração a idade do animal assim como que alguns dos exames poderão demorar até 3 meses. Adicionalmente, tome em consideração a época do ano em que viaja, (as estações mais quentes não são recomendáveis)
+                É importante ter em consideração a idade do animal assim como que alguns dos exames poderão demorar até 3 meses. Adicionalmente, tome em consideração a época do ano em que viaja, (as estações mais quentes não são recomendáveis).
                 </p>
             </div>
         </div>
@@ -167,7 +170,7 @@ const PetInternacioanal = () => {
                 <span className='flex gap-x-4 items-center sm:text-2xl md:text-4xl pt-8'><FaPaw color='#6F2185' /><b className='text-violet-800'>Documentação necessária</b></span>
             </h3>
             <p className='font-normal pt-4 text-justify text-base pb-4 text-gray-900'>
-            Cada país tem regras próprias, sendo a documentação base necessária a seguinte
+            Cada país tem regras próprias, mas falando de Portugal a documentação base necessária é a seguinte
             </p>
             <div>
                 <ol type='I'>

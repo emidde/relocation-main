@@ -14,7 +14,6 @@ import videoplay from '../../img/video-facility.mp4'
 import Testimunials from '../../components/Testimunials/Testimunials'
 import lisboa from '../../img/lisboa.jpg'
 import braga from '../../img/braga.jpg'
-import decore from '../../img/decore-place.svg'
 import '../../index.css'
 import SlideDogs from '../../components/Slides/SlidesDogs'
 import imagemfamilia from '../../img/image-family.png'
@@ -87,19 +86,17 @@ const Home = () => {
         <div className="dogs-wrap md:px-10 sm:px-9 sm:m-2">
         <div className="text-pet">
             <div className="title-pet font-semibold sm:pt-10 sm:font-semibold sm:text-base sm:leading-normal">
-            <p>Preocupado em levar seu pet?</p>
+            <p>Preocupado em trazer seu pet?</p>
               </div>            
               <div className="text-pet font-regular text-stone-500 sm:text-xsm sm:pt-2">
                 <p>
-                Facility4u cuida do transporte internacional dos seus animais de estimação, por via áerea em total segurança para Portugal.
-
- <br></br><br></br>
-Transportar animais de estimação pode ser um processo complexo devido às exigências das companhias áereas, a questões burocráticas e à diversidade de legislação aplicável em cada país. 
+                Facility 4u cuida do transporte dos seus animais de estimação, do aeroporto de chegada até sua nova morada em total segurança em Portugal. 
 <br></br><br></br>
-
-A experiência da nossa equipa permite agilizar o processo, porque lhe disponibilizamos uma oferta de serviços integrada, personalizada e chave na mão, com poupança de custos para os nossos clientes. Connosco tem a garantia que estes membros tão especiais da família se reúnem rapidamente consigo no destino, com todo o conforto e segurança.
+Transportar animais de estimação pode ser um processo complexo devido às exigências das companhias aéreas, a questões burocráticas e à diversidade de legislação aplicável em cada país.
 <br></br><br></br>
-Já deixamos pronto o kit pet com ração de sua preferência, comedouro, caminha, coleira, caixinha de areia e outros utencílios que precisar.  
+A experiência da nossa equipa e minha permitirá agilizar o processo, porque temos animais e trouxemos os nossos, lhes disponibilizamos um processo onde podem tirar as suas dúvidas e fazer um check list do que já foi feito e do que falta ainda com as datas na ordem, processo personalizado, com poupança de custos para os nossos clientes, porque sabendo o passo a passo lhe trará mais conforto. Com isso tem a garantia que estes membros tão especiais da família se reúnem rapidamente consigo no destino, com todo o conforto e segurança.
+<br></br><br></br>
+Já deixamos pronto o kit pet com ração de sua preferência, comedouro, caminha, coleira, caixinha de areia e outros utensílios que precisar
                 </p>
               </div>
               <div className="button-saiba-mais   dogsButton sm:pb-10" style={{textAlign:'-moz-center'}}>
