@@ -6,11 +6,13 @@ import mariza from '../../img/mariza-estima.png'
 import sara from '../../img/sara.jpeg'
 import carol from '../../img/carol-souza'
 import ana from '../../img/ana-cerezza'
-import gethiane from '../../img/gethiane.jpeg'
+import gethiane from '../../img/gehtiane.jpg'
 import juvilaca from '../../img/ju-vilaça.jpeg'
 import { Avatar } from '@mui/material'
 import rafael from '../../img/rafael.jpeg'
 import marizaestima from '../../img/mariza.jpeg'
+import renata from '../../img/renata.jpg'
+import jean from '../../img/jean.jpg'
 
 
 const QuemSomos = () => {
@@ -52,70 +54,59 @@ const QuemSomos = () => {
               </div>
             </div>
             <div className="nossos-time text-left mt-24">
-            <div className="img-team md:flex sm:block items-center gap-x-7">
-                  <Card img={marizaestima} />
+                <div className="">
+                  <h1 className='text-purple-600 text-3xl font-bold mt-12'>Equipe Lisboa</h1>
+                </div>
+                <div className="mt-8 img-team md:flex sm:block items-center gap-x-7">
+                  <Card img={carol} />
                     <div className="md:text-left sm:text-center sm:mt-6 md:mt-0">
-                      <b className='text-purple-700'>Mariza Estima</b>
-                    <p className='font-normal text-justify sm:mt-2 text-gray-500'>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed mollis, ex at fringilla auctor, 
-                        mi enim mollis turpis, eget imperdiet velit elit vel metus. Praesent id urna eget metus suscipit pharetra.
-                        Aenean a imperdiet tortor. Quisque purus ante, consequat quis odio a, semper hendrerit ipsum. Nulla et orci a sem.</p>
+                      <b className='text-purple-700'>Carol Souza</b>
                     </div>
                 </div> 
+
                 <div className="mt-8 img-team md:flex sm:block items-center gap-x-7">
-                  <Card img={rafael} />
+                  <Card img={ana} />
                     <div className="md:text-left sm:text-center sm:mt-6 md:mt-0">
-                      <b className='text-purple-700'>Rafael Maciel</b>
-                    <p className='font-normal text-justify sm:mt-2 text-gray-500'> encomendas, compras iniciais, limpeza, recebimento 
-                     de mudança, e acompanhamento do contrato entregue 
-                     com NIF (Número de Identificação Fiscal de Portugal).</p>
+                      <b className='text-purple-700'>Anna Cerezza</b>
                     </div>
                 </div> 
                 <div className="mt-8 img-team md:flex sm:block items-center gap-x-7">
                   <Card img={sara} />
                     <div className="md:text-left sm:text-center sm:mt-6 md:mt-0">
                       <b className='text-purple-700'>Sara Neves</b>
-                    <p className='font-normal text-justify sm:mt-2 text-gray-500'>
-                    Sara Neves é estudante de Mestrado em Comunicação em Lisboa e estrategista de Marca.
-                      Vive em Portugal desde 2021 e integra o time da Facility para apoiar a vinda de estrangeiros que 
-                      busquem se estabelecer em Portugal.
-                    </p>
                     </div>
                 </div> 
-                <div className="mt-8 img-team md:flex sm:block items-center gap-x-7">
-                  <Card img={carol} />
-                    <div className="md:text-left sm:text-center sm:mt-6 md:mt-0">
-                      <b className='text-purple-700'>Carol Souza</b>
-                    <p className='font-normal text-justify sm:mt-2 text-gray-500'>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed mollis, ex at fringilla auctor, 
-                        mi enim mollis turpis, eget imperdiet velit elit vel metus. Praesent id urna eget metus suscipit pharetra.
-                        Aenean a imperdiet tortor. Quisque purus ante, consequat quis odio a, semper hendrerit ipsum. Nulla et orci a sem.</p>
-                    </div>
-                </div> 
-                <div className="mt-8 img-team md:flex sm:block items-center gap-x-7">
-                  <Card img={juvilaca} />
-                    <div className="md:text-left sm:text-center sm:mt-6 md:mt-0">
-                      <b className='text-purple-700'>Ju Vilaça</b>
-                    <p className='font-normal text-justify sm:mt-2 text-gray-500'>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed mollis, ex at fringilla auctor, 
-                        mi enim mollis turpis, eget imperdiet velit elit vel metus. Praesent id urna eget metus suscipit pharetra.
-                        Aenean a imperdiet tortor. Quisque purus ante, consequat quis odio a, semper hendrerit ipsum. Nulla et orci a sem.</p>
-                    </div>
-                </div> 
-                <div className="mt-8 img-team md:flex sm:block items-center gap-x-7">
-                  <Card img={ana} />
-                    <div className="md:text-left sm:text-center sm:mt-6 md:mt-0">
-                      <b className='text-purple-700'>Ana Cerezza</b>
-                    <p className='font-normal text-justify sm:mt-2 text-gray-500'>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed mollis, ex at fringilla auctor, 
-                        mi enim mollis turpis, eget imperdiet velit elit vel metus. Praesent id urna eget metus suscipit pharetra.
-                        Aenean a imperdiet tortor. Quisque purus ante, consequat quis odio a, semper hendrerit ipsum. Nulla et orci a sem.</p>
-                    </div>
-                </div> 
-
+                <div className="">
+                  <h1 className='text-purple-600 text-3xl font-bold mt-12'>Equipe Porto</h1>
+                </div>
                 <div className="mt-8 img-team md:flex sm:block items-center gap-x-7">
                   <Card img={gethiane} />
                     <div className="md:text-left sm:text-center sm:mt-6 md:mt-0">
                       <b className='text-purple-700'>Gethiane</b>
-                    <p className='font-normal text-justify sm:mt-2 text-gray-500'>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed mollis, ex at fringilla auctor, 
-                        mi enim mollis turpis, eget imperdiet velit elit vel metus. Praesent id urna eget metus suscipit pharetra.
-                        Aenean a imperdiet tortor. Quisque purus ante, consequat quis odio a, semper hendrerit ipsum. Nulla et orci a sem.</p>
+                    </div>
+                </div> 
+
+                <div className="mt-8 img-team md:flex sm:block items-center gap-x-7">
+                  <Card img={renata} />
+                    <div className="md:text-left sm:text-center sm:mt-6 md:mt-0">
+                      <b className='text-purple-700'>Renata</b>
+                    </div>
+                </div> 
+
+                <div className="">
+                  <h1 className='text-purple-600 text-3xl font-bold mt-12'>Equipe de Maketing</h1>
+                </div>
+                <div className="mt-8 img-team md:flex sm:block items-center gap-x-7">
+                  <Card img={juvilaca} />
+                    <div className="md:text-left sm:text-center sm:mt-6 md:mt-0">
+                      <b className='text-purple-700'>Ju Vilaça</b>
+                    </div>
+                </div> 
+
+                <div className="mt-8 img-team md:flex sm:block items-center gap-x-7">
+                  <Card img={jean} />
+                    <div className="md:text-left sm:text-center sm:mt-6 md:mt-0">
+                      <b className='text-purple-700'>Jean</b>
                     </div>
                 </div> 
 
